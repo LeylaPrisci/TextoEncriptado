@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background-color: #F3F5FC;
+}
+
+.logo{
+    width:100%;
+    margin-left: 4%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.parte-derecha{
+    float: right;
+    width: 30%;
+    height: 91%;
+    margin-top: 3%;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.19);
+    border-radius: 32px;
+    text-align: center;
+}
+
+#imagen{
+    margin-top: 70%;
+    margin-left: 4%;
+    width: 90%;
+    height: auto;
+   
+}
+
+#texto{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    margin-top: 28%;
+    color: #343A40;
+}
+
+#texto2{
+    margin-top: 11%;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 85%;
+    height: 5%;
+    text-align: center;
+    border: none;
+    color: #343A40;
+    background: #ffffff;
+
+}
+
+#copiar{
+    margin-top: 4%;
+    width: 155px;
+    height: 38px;
+    font-family: sans-serif;
+    font-size: 19px;
+    border-radius: 26px;
+    background:#ffffff;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    margin-left: 118px;
+    display: none;
+}
+
+.parte-izquierda{
+    float: left;
+    width: 68%;
+    height: 67%;
+    margin-top: 10%;
+    background: #F3F5FC;
+    text-align: center;
+}
+
+#introducirtexto{
+    margin-top: 22%;
+    width: 76%;
+    height: 50%;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    outline: none;
+    border: none;
+}
+
+.buttons{
+    width: 68%;
+    height: 20%;
+    background:#F3F5FC;
+    float: left;
+}
+
+.buttons p{
+    margin-left: 20%;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #495057;
+}
+
+#interrogacion{
+    position: absolute;
+    width: 13px;
+    left: 195px;
+    margin: -27px;
+}
+
+
+#encriptar{
+    margin-top: 1%;
+    padding: 11px;
+    width: 22%;
+    height: 20%;
+    border-radius: 24px;
+    background: #0A3871;
+    margin-left: 16%;
+    font-size: 16px;
+    color: #c7d5dd;
+}
+
+#desencriptar{
+    padding: 11px;
+    width: 22%;
+    height: 20%;
+    border-radius: 24px;
+    background: #c7d5dd;
+    margin-left: 16%;
+    font-size: 16px;
+    color: #0A3871;
+}
