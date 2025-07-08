@@ -1,33 +1,44 @@
 <!DOCTYPE html>
-
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Alura Challenge</title>
-        <link rel="stylesheet" href="style.css"> 
-        <script type="text/javascript" src="Encriptado.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Encriptador</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Imagen/Vector.png" alt="logo Alura">
+        </div>
 
-    <body>
-       <div class="logo">
-          <img src="Imagen/Vector.png" alt="logo">
-       </div>
-       <div class="parte-derecha">
-          <img id="imagen" src="Imagen/Muñeco.png" alt="Muñeco">
-          <h1 id="texto">Ningún mensaje fue encontrado</h1>
-          <textarea id="texto2" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
-          <button type="button" id="copiar" onclick="copiar()">Copiar</button>
-       </div>
-       <div class="parte-izquierda">
-           <textarea id="introducirtexto" placeholder="Ingrese el texto aquí"></textarea>
-           
-       </div>
-       <div class="buttons">
-           <p>Solo letras minúsculas y sin acentos</p>
-           <img  id="interrogacion"src="Imagen/Vector Interrogacion.png" alt="Signo Interrogacion">
-           <button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
-           <button type="button" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
-       </div>
-    </body>
+        <main class="content">
+            <section class="left-panel">
+                <textarea id="introducirtexto" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="info-buttons">
+                    <div class="info-text">
+                        <img id="interrogacion" src="Imagen/Vector Interrogacion.png" alt="Signo Interrogacion">
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="action-buttons">
+                        <button type="button" id="encriptar">Encriptar</button>
+                        <button type="button" id="desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right-panel">
+                <div id="no-message-found" class="message-placeholder">
+                    <img id="imagen" src="Imagen/Muñeco.png" alt="Muñeco">
+                    <h2 id="texto-placeholder">Ningún mensaje fue encontrado</h2>
+                    <p id="subtexto-placeholder">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <textarea id="texto2" class="output-textarea" readonly></textarea>
+                <button type="button" id="copiar">Copiar</button>
+            </section>
+        </main>
+    </div>
     
+    <script src="Encriptado.js"></script>
+</body>
 </html>
